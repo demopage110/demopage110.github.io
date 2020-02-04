@@ -1,0 +1,11 @@
+$(function(){
+  $('.slider__inner').slick({
+    arrows:false,
+    dots:true,
+    dotsClass:'slider-dots',
+  });
+  $('.menu__burger').click(function(){
+  	$('.menu').toggleClass('menu-active');
+  	$('.menu__burger').toggleClass('menu__burger-active')
+  });
+});
