@@ -2490,7 +2490,7 @@ ul, li {
 }
 
 .header__inner {
-  height: 150px;
+  height: 100px;
   -webkit-box-align: center;
           align-items: center;
   display: -webkit-box;
@@ -2544,7 +2544,6 @@ ul, li {
 
 .header_active {
   background-color: #fff;
-  height: 140px;
   -webkit-transition: all .2s;
   transition: all .2s;
   position: fixed;
