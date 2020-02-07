@@ -13,7 +13,10 @@ jQuery(document).ready(function($){
 		prevArrow: '<button type="button" class="slick-prev"><img src="../img/left_arrow.png" alt=""></button>'		
 	})
 
-
+	$('.menu').click(function(){
+		$('.menu-left').toggleClass('menu-left_active');
+		$('body').toggleClass('body_active')
+	});
 
 
 });
