@@ -12,6 +12,15 @@ $(function(){
   	arrows: true,
   	asNavFor: '.slider__bottom',
   	focusOnSelect: true,
+     responsive: [
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 1
+      }
+    }
+    ]
   });
   $('.slider__bottom').slick({
   	asNavFor: '.slider__top',
